@@ -1,0 +1,68 @@
+:root{
+    --light--blue : #2196F3;
+--dark--black : #212121;
+--white : #FFFFFF;
+--light--gray : #757575;
+}
+
+body{
+    font-family:500 ;
+    font-size: 14px; ;
+    color:var(--dark--black) ;
+    font-family:"Roboto", sans-serif; ;
+
+}
+.webstudio-sites{
+    font-family:"Roboto", sans-serif; ;
+    font-weight:500 ;
+    font-size: 14px;
+    color: var(--dark--black);
+}
+.webstudio-heading{
+font-weight:900 ;
+font-size: 44px;
+font-family:"Roboto", sans-serif; ;
+}
+.webstudio-h2{
+    font-size: 16px;
+    font-weight: 700;
+    font-family:"Roboto", sans-serif;
+    color: var(--white);
+}
+.webstudio-h3{
+    font: size 14px; ;
+font-weight: 700;
+color: var(--dark--black);
+}
+.webstudio-text{
+    font: size 14px; ;
+    font-weight:400 ;
+    color: var(--light--gray);
+}
+.webstudio-subheading{
+    color:var(--dark--black);
+    font-weight: 700;
+    font-size: 36px;
+}
+.webstudio-footer{
+    color: var(--light--gray);
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #2F303A;
+    ;
+}
+.webstudio-gmail{
+    color: var(--light--gray);
+    font-weight: 400;
+    font-size: 14px; 
+}
+.webstudio-tel{
+    color: var(--light--gray);
+    font-weight: 400;
+    font-size: 14px;
+}
+.webstudio-address{
+   color: var(--white);
+    font-weight: 400;
+    font-size: 14px;
+}
