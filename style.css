@@ -55,6 +55,10 @@ body {
     font-weight: 400;
     color: var(--light--gray);
     font-family: "Roboto", sans-serif;
+    line-height: 1.71;
+    padding-top: 10px;
+    padding-bottom: 94px;
+   
 
 }
 
@@ -88,7 +92,7 @@ body {
     font-size: 14px;
 }
 
-.webstudio-tel {
+.webstudio-{
     color: var(--light--gray);
     font-weight: 400;
     font-size: 14px;
@@ -224,4 +228,12 @@ background-color: white;
 .webstudio-text{
     padding-bottom: 30px;
 }
-
+.webstudio-sites:hover{
+    color: var(--light--blue);
+}
+.webstudio-tel:hover{
+color: var(--light--blue);
+}
+.webstudio-gmail:hover{
+color: var(--light--blue);
+}
