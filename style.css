@@ -72,6 +72,7 @@ body {
     color: var(--dark--black);
     font-weight: 700;
     font-size: 36px;
+    margin-top: 94;
 }
 
 .webstudio-footer {
@@ -101,6 +102,7 @@ body {
 
 .webstudio-subheading {
     text-align: center;
+
 }
 
 .webstudio-heading {
@@ -160,4 +162,65 @@ body {
     border: 0;
     border-radius: 4px;
     margin-top: 30px;
+}
+
+.Section-3 {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 94px;
+    margin-top: 50px;
+}
+.section-4{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+text-align: center;
+}
+.webstudio-figure{
+    width: 270px;
+    margin: 0;
+}
+.webstudio-figure img{
+    width: 100%;
+}
+.section{
+    background-color:#F5F4FA;
+   padding-top: 94px;
+   padding-bottom: 94px;
+}
+.webstudio-footer{
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
+.gmail{
+    color: rgba(255, 255, 255, 0.601);
+    margin-top: 20px;
+
+}
+.tel{
+color: rgba(255, 255, 255, 0.599);
+margin-top: 20px;
+}
+.footer-flex{
+    display: flex;
+    flex-direction: column;
+    
+}
+.webstudio-address{
+    margin-top: 20px;
+}
+.section-5{
+    background-color: #f5f4fa;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.webstudio-figure{
+background-color: white;
+}
+.webstudio-text{
+    padding-bottom: 30px;
 }
