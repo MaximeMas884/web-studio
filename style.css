@@ -1,68 +1,163 @@
-:root{
-    --light--blue : #2196F3;
---dark--black : #212121;
---white : #FFFFFF;
---light--gray : #757575;
+:root {
+    --light--blue: #2196F3;
+    --dark--black: #212121;
+    --white: #FFFFFF;
+    --light--gray: #757575;
 }
 
-body{
-    font-family:500 ;
-    font-size: 14px; ;
-    color:var(--dark--black) ;
-    font-family:"Roboto", sans-serif; ;
-
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
 }
-.webstudio-sites{
-    font-family:"Roboto", sans-serif; ;
-    font-weight:500 ;
+
+body {
+    font-family: 500;
+    font-size: 14px;
+    color: var(--dark--black);
+    font-family: "Roboto", sans-serif;
+}
+
+.webstudio-sites {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     font-size: 14px;
     color: var(--dark--black);
 }
-.webstudio-heading{
-font-weight:900 ;
-font-size: 44px;
-font-family:"Roboto", sans-serif; ;
+
+.webstudio-heading {
+    font-weight: 900;
+    font-size: 44px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    width: 696px;
+    display: block;
+    margin: 0 auto;
+    line-height: 1.36;
 }
-.webstudio-h2{
+
+.webstudio-h2 {
     font-size: 16px;
     font-weight: 700;
-    font-family:"Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: var(--white);
 }
-.webstudio-h3{
-    font: size 14px; ;
-font-weight: 700;
-color: var(--dark--black);
+
+.webstudio-h3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--dark--black);
+    font-family: "Roboto", sans-serif;
+
 }
-.webstudio-text{
-    font: size 14px; ;
-    font-weight:400 ;
+
+.webstudio-text {
+    font-size: 14px;
+    font-weight: 400;
     color: var(--light--gray);
+    font-family: "Roboto", sans-serif;
+
 }
-.webstudio-subheading{
-    color:var(--dark--black);
+
+.webstudio-list {
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-top: 94px;
+    margin-bottom: 94px;
+    gap: 30px;
+}
+
+.webstudio-subheading {
+    color: var(--dark--black);
     font-weight: 700;
     font-size: 36px;
 }
-.webstudio-footer{
+
+.webstudio-footer {
     color: var(--light--gray);
     font-weight: 400;
     font-size: 14px;
     background-color: #2F303A;
-    ;
 }
-.webstudio-gmail{
-    color: var(--light--gray);
-    font-weight: 400;
-    font-size: 14px; 
-}
-.webstudio-tel{
+
+.webstudio-gmail {
     color: var(--light--gray);
     font-weight: 400;
     font-size: 14px;
 }
-.webstudio-address{
-   color: var(--white);
+
+.webstudio-tel {
+    color: var(--light--gray);
     font-weight: 400;
     font-size: 14px;
+}
+
+.webstudio-address {
+    color: var(--white);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.webstudio-subheading {
+    text-align: center;
+}
+
+.webstudio-heading {
+    text-align: center;
+}
+
+.webstudio-team {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.webstudio-sites {
+    text-decoration: none;
+}
+
+.webstudio-gmail {
+    text-decoration: none;
+}
+
+.webstudio-tel {
+    text-decoration: none;
+}
+
+.webstudio-nav {
+    gap: 50px;
+    display: flex;
+}
+
+.nav-1 {
+    gap: 50px;
+    display: flex;
+}
+
+.webstuido-title {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: var(--dark--black);
+    color: var(--white);
+}
+
+.webstudio-button {
+    display: block;
+    margin: 0 auto;
+    background-color: var(--light--blue);
+    color: var(--white);
+    padding: 10px 32px 10px 32px;
+    border: 0;
+    border-radius: 4px;
+    margin-top: 30px;
 }
