@@ -5,134 +5,141 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <a href=""><img src="img/WebStudio (1).png" alt=""></a>
-        <div>
-            <nav>
-                <a href="index.html">Студія</a>
-                <a href="portfolio.html">Портфоліо</a>
-                <a href="">Контакти</a>
+    <header class="header">
+        <div class="container header-flex">
+            <a href=""><img src="img/WebStudio (1).png" alt=""></a>
+
+            <nav class="webstudio-nav">
+                <a class="webstudio-sites" href="index.html">Студія</a>
+                <a class="webstudio-sites" href="portfolio.html">Портфоліо</a>
+                <a class="webstudio-sites">Контакти</a>
             </nav>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+380961111111">+38096 111 11 11</a>
+            <div class="nav-1">
+                <a class="webstudio-gmail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="webstudio-tel" href="tel:+380961111111">+38096 111 11 11</a>
+            </div>
         </div>
     </header>
-    <main>
-        <ul>
-            <li>
-                <button>all</button>
-            </li>
-            <li>
-                <button>website</button>
-            </li>
-            <li>
-                <button>application</button>
-            </li>
-            <li>
-                <button>design</button>
-            </li>
-            <li>
-                <button>marketing</button>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <figure>
-                    <img src="img/img (3).png" alt="computer">
-                    <figcaption>
-                        <h3>technocrack</h3>
-                        <p>Website</p>
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="img/img (2).png" alt="looks">
-                    <figcaption>
-                        <h3>New Orleans vs Golden Star poster</h3>
-                        <p>Design</p>
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="img/img (1).png" alt="logo">
-                    <figcaption>
-                        <h3>Seafood restaurant</h3>
-                        <p>Application</p>
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="img/img.png" alt="headphones">
-                    <figcaption>
-                        <h3>Project Prime</h3>
-                        <p>Marketing</p>
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="img/img.png" alt="projects">
-                    <figcaption>
-                        <h3>Boxes project</h3>
-                        <p>Application</p>
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="img/img.png" alt="website">
-                    <figcaption>
-                        <h3>Inspiration has no Borders</h3>
-                        <p>Website</p>
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="img/img (5).png" alt="design">
-                    <figcaption>
-                        <h3>Edition Limited Edition</h3>
-                        <p>Design</p>
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="img/img (6).png" alt="ideas">
-                    <figcaption>
-                        <h3>LAB project</h3>
-                        <p>Marketing</p>
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="img/img (7).png" alt="applications">
-                    <figcaption>
-                        <h3>Growing Business</h3>
-                        <p>Application</p>
-                    </figcaption>
-                </figure>
-            </li>
-        </ul>
+
+    <main class="portfolio-main">
+        <div class="container">
+            <ul class="portfolio-ul">
+                <li class="portfolio-list">
+                    <button class="portfolio-button">all</button>
+                </li>
+                <li class="portfolio-list">
+                    <button class="portfolio-button">website</button>
+                </li>
+                <li class="portfolio-list">
+                    <button class="portfolio-button">application</button>
+                </li>
+                <li class="portfolio-list">
+                    <button class="portfolio-button">design</button>
+                </li>
+                <li class="portfolio-list">
+                    <button class="portfolio-button">marketing</button>
+                </li>
+            </ul>
+            <ul class="portfolio-post">
+                <li class="portfolio-list2">
+                    <figure class="portfolio-figure">
+                        <img src="img/img (3).png" alt="computer">
+                        <figcaption>
+                            <h3 class="portfolio-h3">technocrack</h3>
+                            <p class="portfolio-p">Website</p>
+                        </figcaption class="portfolio-figcaption">
+                    </figure>
+                </li>
+                <li class="portfolio-list2">
+                    <figure class="portfolio-figure">
+                        <img src="img/img (2).png" alt="looks">
+                        <figcaption class="portfolio-figcaption">
+                            <h3 class="portfolio-h3">New Orleans vs Golden Star poster</h3>
+                            <p class="portfolio-p">Design</p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="portfolio-list2">
+                    <figure class="portfolio-figure">
+                        <img src="img/img (1).png" alt="logo">
+                        <figcaption class="portfolio-figcaption">
+                            <h3 class="portfolio-h3">Seafood restaurant</h3>
+                            <p class="portfolio-p">Application</p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="portfolio-list2">
+                    <figure class="portfolio-figure">
+                        <img src="img/img.png" alt="headphones">
+                        <figcaption class="portfolio-figcaption">
+                            <h3 class="portfolio-h3">Project Prime</h3>
+                            <p class="portfolio-p">Marketing</p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="portfolio-list2">
+                    <figure class="portfolio-figure">
+                        <img src="img/img.png" alt="projects">
+                        <figcaption class="portfolio-figcaption">
+                            <h3 class="portfolio-h3">Boxes project</h3>
+                            <p class="portfolio-p">Application</p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="portfolio-list2">
+                    <figure class="portfolio-figure">
+                        <img src="img/img.png" alt="website">
+                        <figcaption class="portfolio-figcaption">
+                            <h3 class="portfolio-h3">Inspiration has no Borders</h3>
+                            <p class="portfolio-p">Website</p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="portfolio-list2">
+                    <figure class="portfolio-figure">
+                        <img src="img/img (5).png" alt="design">
+                        <figcaption class="portfolio-figcaption">
+                            <h3 class="portfolio-h3">Edition Limited Edition</h3>
+                            <p class="portfolio-p">Design</p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="portfolio-list2">
+                    <figure class="portfolio-figure">
+                        <img src="img/img (6).png" alt="ideas">
+                        <figcaption class="portfolio-figcaption">
+                            <h3 class="portfolio-h3">LAB project</h3>
+                            <p class="portfolio-p">Marketing</p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="portfolio-list2">
+                    <figure class="portfolio-figure">
+                        <img src="img/img (7).png" alt="applications">
+                        <figcaption class="portfolio-figcaption">
+                            <h3 class="portfolio-h3">Growing Business</h3>
+                            <p class="portfolio-p">Application</p>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
     </main>
 
-    <footer>
-        <a href=""><img src="webstudio white.png" alt=""></a>
-        <div>
-            <address>м. Київ, пр-т Лесі Українки, 26</address>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+
+    <footer class="webstudio-footer">
+        <div class="container footer-flex">
+            <a href=""><img src="WebStudio.png" alt=""></a>
+            <address class="webstudio-address">м. Київ, пр-т Лесі Українки, 26</address>
+            <a class="webstudio-gmail gmail " href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="webstudio-tel tel " href="tel:+380961111111">+38 096 111 11 11</a>
         </div>
 
     </footer>
-
 
 
 </body>

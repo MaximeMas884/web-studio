@@ -56,9 +56,9 @@ body {
     color: var(--light--gray);
     font-family: "Roboto", sans-serif;
     line-height: 1.71;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-bottom: 94px;
-   
+
 
 }
 
@@ -92,7 +92,7 @@ body {
     font-size: 14px;
 }
 
-.webstudio-{
+.webstudio- {
     color: var(--light--gray);
     font-weight: 400;
     font-size: 14px;
@@ -138,6 +138,7 @@ body {
 
 .webstudio-tel {
     text-decoration: none;
+    color: var(--light--gray);
 }
 
 .webstudio-nav {
@@ -176,64 +177,94 @@ body {
     margin-bottom: 94px;
     margin-top: 50px;
 }
-.section-4{
+
+.section-4 {
     display: flex;
     gap: 30px;
     list-style: none;
     padding: 0;
-text-align: center;
+    text-align: center;
 }
-.webstudio-figure{
+
+.webstudio-figure {
     width: 270px;
     margin: 0;
 }
-.webstudio-figure img{
+
+.webstudio-figure img {
     width: 100%;
 }
-.section{
-    background-color:#F5F4FA;
-   padding-top: 94px;
-   padding-bottom: 94px;
+
+.section {
+    background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
-.webstudio-footer{
+
+.webstudio-footer {
     padding-top: 94px;
     padding-bottom: 94px;
 
 }
-.gmail{
+
+.gmail {
     color: rgba(255, 255, 255, 0.601);
     margin-top: 20px;
 
 }
-.tel{
-color: rgba(255, 255, 255, 0.599);
-margin-top: 20px;
+
+.tel {
+    color: rgba(255, 255, 255, 0.599);
+    margin-top: 20px;
+
 }
-.footer-flex{
+
+.footer-flex {
     display: flex;
     flex-direction: column;
-    
+
 }
-.webstudio-address{
+
+.webstudio-address {
     margin-top: 20px;
 }
-.section-5{
+
+.section-5 {
     background-color: #f5f4fa;
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.webstudio-figure{
-background-color: white;
+
+.webstudio-figure {
+    background-color: white;
 }
-.webstudio-text{
+
+.webstudio-text {
     padding-bottom: 30px;
+    margin: 0;
 }
-.webstudio-sites:hover{
+
+.webstudio-sites:hover {
     color: var(--light--blue);
 }
-.webstudio-tel:hover{
-color: var(--light--blue);
+
+.webstudio-tel:hover {
+    color: var(--light--blue);
 }
-.webstudio-gmail:hover{
-color: var(--light--blue);
+
+.webstudio-gmail:hover {
+    color: var(--light--blue);
 }
+.portfolio-button{
+    
+}
+.portfolio-ul{
+    display: flex;
+  justify-content: center;
+  padding:0;
+  list-style: none;
+  margin-top: 100px;
+  margin-bottom: 56px;
+  gap: 8px;
+}
+.portfolio-button{}
