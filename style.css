@@ -255,16 +255,28 @@ body {
 .webstudio-gmail:hover {
     color: var(--light--blue);
 }
-.portfolio-button{
-    
-}
-.portfolio-ul{
+
+.portfolio-button {}
+
+.portfolio-ul {
     display: flex;
-  justify-content: center;
-  padding:0;
-  list-style: none;
-  margin-top: 100px;
-  margin-bottom: 56px;
-  gap: 8px;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+    margin-top: 100px;
+    margin-bottom: 56px;
+    gap: 8px;
 }
-.portfolio-button{}
+
+.portfolio-button {}
+
+.portfolio-post {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.portfolio-figure {
+    margin: 0;
+}
