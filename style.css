@@ -179,6 +179,7 @@ body {
     margin-bottom: 94px;
     margin-top: 50px;
 }
+
 .section-4 {
     display: flex;
     gap: 30px;
@@ -186,18 +187,81 @@ body {
     padding: 0;
     text-align: center;
 }
-.social-icon{
+
+.social-icon {
     width: 20px;
     height: 20px;
-    margin-left: 20px;
     fill: var(--light--gray);
-    margin-top: 10px;
-    margin-bottom: 43px;
-    
 }
-.social-link:hover{
-background-color: var(--light--blue);
 
+/* Styles the clickable area around the social icon.
+   Adds padding, makes it circular, and centers the icon inside. */
+.social-link {
+    padding: 12px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Changes background color on hover for better visual feedback. */
+.social-link:hover {
+    background-color: var(--light--blue);
+}
+
+/* Changes icon color to white when hovered over its link. */
+.social-link:hover .social-icon {
+    fill: var(--white);
+}
+
+/* Container for social links.
+   Uses flexbox to evenly space out each link and adds spacing at the bottom. */
+.social-network {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.clientel {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--dark--black);
+    text-align: center;
+
+}
+
+.company {
+    fill: var(--light--gray);
+    width: 106px;
+    height: 95px;
+
+}
+
+.clients-company:hover .company {
+    fill: var(--light--blue);
+}
+
+.clients-company {
+    border-color: var(--light--gray);
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    border-radius: 4px;
+    width: 170px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.clients-company:hover {
+    border-color: var(--light--blue);
+}
+
+.clients-wraper {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 94px;
 }
 
 .webstudio-figure {
@@ -369,4 +433,9 @@ background-color: var(--light--blue);
     justify-content: center;
     align-items: center;
     background-color: #F5F4FA;
+}
+
+.footer-looks {
+    width: 22px;
+    height: 22px;
 }
