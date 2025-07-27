@@ -482,16 +482,86 @@ body {
 
 .model-title {
     color: var(--light--gray);
-    font-size: 12px;
+    font-size: 22px;
     text-align: center;
+    font-family: "Roboto", sans-serif;
 }
 
 .model-submit {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
     background-color: #2196F3;
     border-color: #2196F3;
     color: var(--white);
+    font-family: "Roboto", sans-serif;
+}
+
+.input-model {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+
+}
+
+textarea.input-model {
+    height: 120px;
+    resize: none;
+}
+
+.button-close {
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
+}
+
+.form-icon {
+    width: 18px;
+    height: 18px;
+    background-image: url(/img/Vector.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    left: 12px;
+    bottom: 22px;
+}
+
+.form-icon2 {
+    width: 18px;
+    height: 18px;
+    background-image: url("img/Vector\ \(1\).svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    left: 12px;
+    bottom: 22px;
+}
+
+.form-icon3 {
+    width: 18px;
+    height: 18px;
+    background-image: url("img/Vector\ \(2\).svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    left: 12px;
+    bottom: 22px;
+}
+
+.form-icon-wrap {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.form-icon-wrap:focus-within .form-icon {
+    color: #2196f3;
+}
+
+.input-model {
+    padding-left: 40px;
 }
