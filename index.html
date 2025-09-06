@@ -105,14 +105,17 @@
             <div class="container ">
                 <h3 class="webstudio-subheading">Чим ми займаємося.</h3>
                 <ul class="Section-3">
-                    <li>
+                    <li class="img-li">
                         <img class="img" src="img/class.png" alt="coding">
+                        <h3 class="inside">Десктопні додатки</h3>
                     </li>
-                    <li>
+                    <li class="img-li">
                         <img class="img" src="img/img.png" alt="moblie">
+                        <h3 class="inside">Мобільні додатки</h3>
                     </li>
-                    <li>
+                    <li class="img-li">
                         <img class="img" src="img/img (1).png" alt="drawing">
+                        <h3 class="inside">Дизайнерські рішення</h3>4
                     </li>
                 </ul>
             </div>
@@ -249,25 +252,48 @@
 
 
     <footer class="webstudio-footer">
+
         <div class="container footer-flex">
-            <a href=""><img src="img/webstudio white.png" alt=""></a>
-            <address class="webstudio-address">м. Київ, пр-т Лесі Українки, 26</address>
-            <div>
-                <a class="footer-place" href=""> <svg class="footer-looks">
-                        <use href="./icomoon/symbol-defs.svg#icon-instagram-2"></use>
-                    </svg></a>
-                <a class="footer-place" href=""> <svg class="footer-looks">
-                        <use href="./icomoon/symbol-defs.svg#icon-twitter-1"></use>
-                    </svg></a>
-                <a class="footer-place" href=""> <svg class="footer-looks">
-                        <use href="./icomoon/symbol-defs.svg#icon-facebook-1"></use>
-                    </svg></a>
-                <a class="footer-place" href=""> <svg class="footer-looks">
-                        <use href="./icomoon/symbol-defs.svg#icon-linkedin-1"></use>
-                    </svg></a>
-            </div>
-            <a class="webstudio-gmail gmail " href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a class="webstudio-tel tel " href="tel:+380961111111">+38 096 111 11 11</a>
+            <ul class="footer-ul">
+                <li class="footer-li"> <a href=""><img src="img/webstudio white.png" alt=""></a>
+                    <address class="webstudio-address">м. Київ, пр-т Лесі Українки, 26</address>
+                    <a class="webstudio-gmail gmail " href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="webstudio-tel tel " href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
+
+                <li class="footer-li">
+                    <h4 class="footer-h4">приєднуйтесь</h4>
+                    <div class="social-network">
+                        <a class="social-link" href=""> <svg class="social-icon ">
+                                <use href="./icomoon/symbol-defs.svg#icon-instagram-2"></use>
+                            </svg></a>
+                        <a class="social-link" href=""> <svg class="social-icon">
+                                <use href="./icomoon/symbol-defs.svg#icon-twitter-1"></use>
+                            </svg></a>
+                        <a class="social-link" href=""> <svg class="social-icon">
+                                <use href="./icomoon/symbol-defs.svg#icon-facebook-1"></use>
+                            </svg></a>
+                        <a class="social-link" href=""> <svg class="social-icon">
+                                <use href="./icomoon/symbol-defs.svg#icon-linkedin-1"></use>
+                            </svg></a>
+                    </div>
+                </li>
+
+                <li class="footer-li">
+                    <h3 class="footer-h3">Підпишіться на розсилку</h3>
+                    <form class="footer-form">
+                        <label class="footer-label" for="email">your e-mail:</label><br>
+                        <input placeholder="your-email" class="footer-input" type="email" id="email" name="email"><br>
+        
+                        <button class="footer-btn" type="submit" >subscribe <img class="img" src="icon send.png" alt=""></button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+
+        </div>
         </div>
 
     </footer>
